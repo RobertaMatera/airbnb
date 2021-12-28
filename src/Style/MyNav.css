@@ -1,0 +1,77 @@
+@import "MyStyle.css";
+
+.nav-logo {
+  width: 100px;
+}
+
+.bg-black {
+  background-color: var(--black-color);
+}
+
+.navbar-light .navbar-nav .nav-link,
+#nav {
+  color: var(--white-color);
+}
+
+#nav div div:first-child a {
+  position: relative;
+}
+
+#nav div div:first-child a:hover {
+  color: var(--white-color);
+}
+
+#nav div div:first-child a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: var(--white-color);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#nav div div:first-child a:hover:after {
+  width: 10%;
+  left: 45%;
+}
+
+#nav div div:first-child a:first-child {
+  position: relative;
+}
+
+#nav div div:first-child a:first-child:after {
+  content: "";
+  width: 20%;
+  left: 40%;
+  position: absolute;
+  border-bottom: 2px solid var(--white-color);
+}
+
+#nav div div:nth-child(2) a:hover {
+  color: var(--white-color);
+}
+
+i {
+  color: var(--white-color);
+}
+
+#host-link {
+  font-size: 10pt;
+  width: 120px;
+}
+
+#nav button i {
+  color: var(--gray-color);
+  font-size: 20px;
+}
+
+.button-transparent {
+  background-color: transparent;
+}
+
+.button-transparent:hover {
+  background-color: var(--light-black);
+}
