@@ -33,10 +33,6 @@
   font-size: 11px;
 }
 
-.disabled {
-  color: var(--gray-color);
-}
-
 #bottom-nav i {
   font-size: 20px;
 }

@@ -11,9 +11,6 @@
 #search button div p:last-child {
   color: var(--gray-color);
   font-size: 12pt;
-
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 #search button:hover {
@@ -41,9 +38,6 @@
 
 .red-search {
   background-color: var(--main-color);
-  border-radius: 100%;
-  width: 50px;
-  height: 50px;
   padding: 16px;
 }
 
@@ -85,4 +79,30 @@
   -webkit-box-shadow: 0px 5px 28px 1px rgba(173, 173, 173, 0.64);
   box-shadow: 0px 5px 28px 1px rgba(173, 173, 173, 0.64);
   background-color: var(--white-color);
+}
+
+#guests-menu {
+  width: 500px;
+}
+
+#guests-menu div div p:first-of-type {
+  font-weight: bold;
+}
+
+#guests-menu .rounded-button {
+  border: none;
+  color: var(--white-color);
+  background-color: var(--light-gray);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#link-animal {
+  color: var(--black-color);
+  text-decoration: underline;
 }

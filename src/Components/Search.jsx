@@ -17,7 +17,10 @@ export default class Search extends Component {
               </div>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu id="flexible-menu" className="bg-button rounded-border-32 p-4 mt-3">
+            <Dropdown.Menu
+              id="flexible-menu"
+              className="bg-button rounded-border-32 p-4 mt-3"
+            >
               <p>
                 <b>GO ANYWHERE, ANYTIME</b>
               </p>
@@ -70,13 +73,83 @@ export default class Search extends Component {
                 <p className="my-0"> Guests </p>
                 <p className="my-0 disabled"> Add guests </p>
               </div>
-              <i id="search-i" className="bi bi-search d-flex align-self-center my-auto ml-4 red-search"></i>
+              <i
+                id="search-i"
+                className="bi bi-search d-flex align-self-center my-auto ml-4 red-search rounded-button-100"
+              ></i>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+            <Dropdown.Menu
+              id="guests-menu"
+              className="bg-button rounded-border-32 p-4 mt-3"
+            >
+              <div className="d-flex flex-row">
+                <div className="p-4">
+                  <p className="my-0">Adults</p>
+                  <p className="my-0 disabled">Ages 13 or above</p>
+                </div>
+                <div className="d-flex flex-row align-items-center ml-auto">
+                  <Button className="rounded-button rounded-button-100">
+                    <p className="my-auto"> - </p>
+                  </Button>
+                  <p className="my-0 mx-2">0</p>
+                  <Button className="rounded-button rounded-button-100">
+                    <p className="my-auto"> + </p>
+                  </Button>
+                </div>
+              </div>
+
+              <div className="d-flex flex-row">
+                <div className="p-4">
+                  <p className="my-0">Children</p>
+                  <p className="my-0 disabled">Ages 2-12</p>
+                </div>
+                <div className="d-flex flex-row align-items-center ml-auto">
+                  <Button className="rounded-button rounded-button-100">
+                    <p className="my-auto"> - </p>
+                  </Button>
+                  <p className="my-0 mx-2">0</p>
+                  <Button className="rounded-button rounded-button-100">
+                    <p className="my-auto"> + </p>
+                  </Button>
+                </div>
+              </div>
+
+              <div className="d-flex flex-row">
+                <div className="p-4">
+                  <p className="my-0">Infants</p>
+                  <p className="my-0 disabled">Under 2</p>
+                </div>
+                <div className="d-flex flex-row align-items-center ml-auto">
+                  <Button className="rounded-button rounded-button-100">
+                    <p className="my-auto"> - </p>
+                  </Button>
+                  <p className="my-0 mx-2">0</p>
+                  <Button className="rounded-button rounded-button-100">
+                    <p className="my-auto"> + </p>
+                  </Button>
+                </div>
+              </div>
+
+              <div className="d-flex flex-row">
+                <div className="p-4">
+                  <p className="my-0">Pets</p>
+                  <a id="link-animal" href="">Bringing an assistance animal?</a>
+                </div>
+                <div className="d-flex flex-row align-items-center ml-auto">
+                  <Button className="rounded-button rounded-button-100">
+                    <p className="my-auto"> - </p>
+                  </Button>
+                  <p className="my-0 mx-2">0</p>
+                  <Button className="rounded-button rounded-button-100">
+                    <p className="my-auto"> + </p>
+                  </Button>
+                </div>
+              </div>
+
+              <div className="p-4">
+                  <p className="disabled">If you're lucky enough to have more than 2 pets with you, be sure to let your Host know.</p>
+              </div>
             </Dropdown.Menu>
           </Dropdown>
         </span>

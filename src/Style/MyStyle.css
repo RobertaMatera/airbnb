@@ -34,3 +34,13 @@
 .bg-button {
   background-color: var(--white-color);
 }
+
+.disabled {
+  color: var(--gray-color);
+}
+
+.rounded-button-100 {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
