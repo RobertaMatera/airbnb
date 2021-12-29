@@ -66,7 +66,7 @@ export default class Search extends Component {
                 <p className="my-0"> Guests </p>
                 <p className="my-0 disabled"> Add guests </p>
               </div>
-              <i className="bi bi-search d-flex align-self-center my-auto mx-4 red-search"></i>
+              <i className="bi bi-search d-flex align-self-center my-auto ml-4 red-search"></i>
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
