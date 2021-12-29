@@ -8,6 +8,7 @@
   --main-color: #ff385c;
   --button-color: #dddddd;
   --gray-color: #717171;
+  --light-gray: #ebebeb;
   --main-font: "Montserrat", sans-serif;
 }
 
@@ -15,7 +16,20 @@
   font-family: var(--main-font);
 }
 
+.bg-black {
+  background-color: var(--black-color);
+}
+
 .rounded-border {
-  border: 1px px solid var(--button-color);
+  border: 1px solid transparent;
   border-radius: 21px;
+}
+
+.rounded-border-32 {
+  border: transparent;
+  border-radius: 32px;
+}
+
+.bg-button {
+  background-color: var(--white-color);
 }

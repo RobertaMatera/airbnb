@@ -4,10 +4,6 @@
   width: 100px;
 }
 
-.bg-black {
-  background-color: var(--black-color);
-}
-
 .navbar-light .navbar-nav .nav-link,
 #nav {
   color: var(--white-color);
@@ -74,4 +70,5 @@ i {
 
 .button-transparent:hover {
   background-color: var(--light-black);
+  border: transparent;
 }
