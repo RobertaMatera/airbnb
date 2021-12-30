@@ -1,6 +1,6 @@
 import "react-dates/initialize";
 
-import { DateRangePicker } from "react-dates";
+import { DayPickerRangeController } from "react-dates";
 
 import React, { Component } from "react";
 
@@ -20,7 +20,8 @@ export default class Dates extends Component {
     return (
       <>
         <div>
-          <DateRangePicker
+          <DayPickerRangeController
+            numberOfMonths={2}
             startDateId="startDate"
             endDateId="endDate"
             startDate={this.state.startDate}
@@ -34,32 +35,7 @@ export default class Dates extends Component {
             }}
           />
         </div>
-        <div className="d-flex flex-row">
-          <Button
-            type="button"
-            className="d-flex d-inline align-items-center day-button py-0 px-1 mx-1 target"
-          >
-            <p className="my-auto p-2"> ± 1 day</p>
-          </Button>
-          <Button
-            type="button"
-            className="d-flex d-inline align-items-center day-button py-0 px-1 mx-1 target"
-          >
-            <p className="my-auto p-2"> ± 2 days</p>
-          </Button>
-          <Button
-            type="button"
-            className="d-flex d-inline align-items-center day-button py-0 px-1 mx-1 target"
-          >
-            <p className="my-auto p-2"> ± 3 days</p>
-          </Button>
-          <Button
-            type="button"
-            className="d-flex d-inline align-items-center day-button py-0 px-1 mx-1 target"
-          >
-            <p className="my-auto p-2"> ± 7 days</p>
-          </Button>
-        </div>
+        
       </>
     );
   }

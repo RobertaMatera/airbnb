@@ -106,3 +106,7 @@
   color: var(--black-color);
   text-decoration: underline;
 }
+
+.calendar-box {
+  width: 700px;
+}

@@ -1,10 +1,3 @@
-.CalendarDay:hover {
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  border: 1.5px solid var(--black-color);
-}
-
 /* Will edit everything selected including everything between a range of dates */
 .CalendarDay__selected_span {
   background: var(--gray-calendar);
@@ -35,8 +28,15 @@ is not yet selected. Edits the dates between your mouse and said date */
   background: none;
 }
 
-td {
-  border: none;
+.CalendarDay:hover {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid var(--black-color);
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .day-button {
@@ -51,4 +51,8 @@ td {
   border: 0.5px solid var(--black-color);
   background: var(--white-color);
   color: var(--black-color);
+}
+
+.DayPicker__withBorder {
+  box-shadow: none;
 }

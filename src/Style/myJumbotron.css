@@ -1,0 +1,29 @@
+#jumbotron > div {
+  background: url("../../public/images/main-photo.jpg");
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 32px;
+}
+
+#jumbotron h2 {
+  color: var(--white-color);
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+#jumbotron button p {
+  background: #71019c;
+  background: -webkit-linear-gradient(to right, #71019c 0%, #ac0187 100%);
+  background: -moz-linear-gradient(to right, #71019c 0%, #ac0187 100%);
+  background: linear-gradient(to right, #71019c 0%, #ac0187 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+#jumbotron button:hover {
+  pointer-events: none;
+  background-color: var(--white-color);
+  border: transparent;
+}

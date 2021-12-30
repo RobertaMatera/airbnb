@@ -4,21 +4,21 @@ import "./Style/myStyle.css";
 import "./Style/myNav.css";
 import "./Style/mySmallNavStyle.css";
 import "./Style/mySearchStyle.css";
-import 'react-dates/lib/css/_datepicker.css';
+import "react-dates/lib/css/_datepicker.css";
 import "./Style/reactDatesOverrides.css";
+import "./Style/myJumbotron.css";
 
 import MyNav from "./Components/MyNav";
 import MySmallNav from "./Components/MySmallNav";
 import Search from "./Components/Search";
-import Jumbotron from "./Components/Jumbotron";
+import MyJumbotron from "./Components/MyJumbotron";
 
 import { Container } from "react-bootstrap";
-import Dates from "./Components/Dates";
 
 function App() {
   return (
     <>
-      <Container fluid className="bg-black">
+      <Container fluid>
         <section id="nav">
           <MyNav />
           <MySmallNav />
@@ -30,8 +30,7 @@ function App() {
           <Search />
         </section>
         <section id="jumbotron">
-        <Dates/>
-          {/* <Jumbotron/> */}
+          <MyJumbotron />
         </section>
       </Container>
     </>

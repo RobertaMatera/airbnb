@@ -4,10 +4,12 @@ import Button from "react-bootstrap/Button";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
 
+import Dates from "./Dates";
+
 export default class Search extends Component {
   render() {
     return (
-      <div>
+      <div className="bg-black">
         <span className="d-flex flex-row bg-button rounded-border-32">
           <Dropdown>
             <Dropdown.Toggle className="bg-button rounded-border-32">
@@ -45,7 +47,35 @@ export default class Search extends Component {
               </div>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu></Dropdown.Menu>
+            <Dropdown.Menu className="calendar-box p-2">
+              <Dates />
+              <div className="d-flex flex-row">
+                <Button
+                  type="button"
+                  className="d-flex d-inline align-items-center day-button py-0 px-1 mx-1 target"
+                >
+                  <p className="my-auto p-2"> ± 1 day</p>
+                </Button>
+                <Button
+                  type="button"
+                  className="d-flex d-inline align-items-center day-button py-0 px-1 mx-1 target"
+                >
+                  <p className="my-auto p-2"> ± 2 days</p>
+                </Button>
+                <Button
+                  type="button"
+                  className="d-flex d-inline align-items-center day-button py-0 px-1 mx-1 target"
+                >
+                  <p className="my-auto p-2"> ± 3 days</p>
+                </Button>
+                <Button
+                  type="button"
+                  className="d-flex d-inline align-items-center day-button py-0 px-1 mx-1 target"
+                >
+                  <p className="my-auto p-2"> ± 7 days</p>
+                </Button>
+              </div>
+            </Dropdown.Menu>
           </Dropdown>
 
           <span className="vl"></span>
@@ -134,7 +164,9 @@ export default class Search extends Component {
               <div className="d-flex flex-row">
                 <div className="p-4">
                   <p className="my-0">Pets</p>
-                  <a id="link-animal" href="">Bringing an assistance animal?</a>
+                  <a id="link-animal" href="">
+                    Bringing an assistance animal?
+                  </a>
                 </div>
                 <div className="d-flex flex-row align-items-center ml-auto">
                   <Button className="rounded-button rounded-button-100">
@@ -148,7 +180,10 @@ export default class Search extends Component {
               </div>
 
               <div className="p-4">
-                  <p className="disabled">If you're lucky enough to have more than 2 pets with you, be sure to let your Host know.</p>
+                <p className="disabled">
+                  If you're lucky enough to have more than 2 pets with you, be
+                  sure to let your Host know.
+                </p>
               </div>
             </Dropdown.Menu>
           </Dropdown>
