@@ -32,7 +32,7 @@ export default class MyNav extends Component {
                 variant="light"
                 className="d-flex d-inline align-items-center rounded-border py-0 px-1 mx-1"
               >
-                <i class="bi bi-list mx-1">
+                <i className="bi bi-list mx-1">
                   {/*   <NavDropdown title="">
                     <NavDropdown.Item href="#action/3.1">
                       Actio
@@ -50,7 +50,7 @@ export default class MyNav extends Component {
                   </NavDropdown> */}
                 </i>
 
-                <i class="bi bi-person-circle mx-1"></i>
+                <i className="bi bi-person-circle mx-1"></i>
               </Button>
             </Nav>
           </Navbar.Collapse>

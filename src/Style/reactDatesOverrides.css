@@ -1,0 +1,54 @@
+.CalendarDay:hover {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid var(--black-color);
+}
+
+/* Will edit everything selected including everything between a range of dates */
+.CalendarDay__selected_span {
+  background: var(--gray-calendar);
+  color: var(--black-color);
+}
+
+.CalendarDay__selected_span:focus {
+  border: none;
+}
+
+/* Will edit selected date or the endpoints of a range of dates */
+.CalendarDay__selected {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: var(--white-color);
+  background: var(--black-color);
+}
+
+.CalendarDay__default {
+  border: none;
+}
+
+/* Will edit when the second date (end date) in a range of dates 
+is not yet selected. Edits the dates between your mouse and said date */
+.CalendarDay__hovered_span:hover,
+.CalendarDay__hovered_span {
+  background: none;
+}
+
+td {
+  border: none;
+}
+
+.day-button {
+  background: var(--white-color);
+  border-radius: 21px;
+  border: 0.5px solid var(--gray-color);
+  font-size: 10pt;
+  color: var(--black-color);
+}
+
+.day-button:hover {
+  border: 0.5px solid var(--black-color);
+  background: var(--white-color);
+  color: var(--black-color);
+}
