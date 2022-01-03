@@ -18,10 +18,9 @@ import { Container } from "react-bootstrap";
 function App() {
   return (
     <>
-      <Container fluid>
+      <Container fluid className="d-none d-md-block bg-black pb-5">
         <section id="nav">
           <MyNav />
-          <MySmallNav />
         </section>
         <section
           id="search"
@@ -31,6 +30,12 @@ function App() {
         </section>
         <section id="jumbotron">
           <MyJumbotron />
+        </section>
+      </Container>
+
+      <Container fluid className="d-flex flex-column d-md-none bg-img">
+        <section id="nav">
+          <MySmallNav />
         </section>
       </Container>
     </>

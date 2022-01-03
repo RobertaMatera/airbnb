@@ -22,6 +22,10 @@
   background-color: var(--black-color);
 }
 
+.bg-white {
+  background-color: var(--white-color);
+}
+
 .rounded-border {
   border: 1px solid transparent;
   border-radius: 21px;

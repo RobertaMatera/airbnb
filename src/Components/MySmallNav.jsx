@@ -12,18 +12,18 @@ export default class MySmallNav extends Component {
             placeholder="&#61442; Where are you going?"
           />
         </div>
-        <div id="bottom-nav" className="d-flex flex-row justify-content-center py-2 fixed-bottom">
+        <div id="bottom-nav" className="d-flex flex-row justify-content-center align-items-center py-2 fixed-bottom bg-white">
           <div className="mx-2">
             <i id="bottom-nav-search" className="bi bi-search d-flex justify-content-center mb-2"></i>
-            <p>Explore</p>
+            <p className="mb-0">Explore</p>
           </div>
           <div className="mx-2 disabled">
             <i className="bi bi-heart d-flex justify-content-center mb-2 disabled"></i>
-            <p>Whishlist</p>
+            <p className="mb-0">Whishlist</p>
           </div>
           <div className="mx-2 disabled">
             <i className="bi bi-person-circle d-flex justify-content-center mb-2 disabled"></i>
-            <p>Login</p>
+            <p className="mb-0">Login</p>
           </div>
         </div>
       </div>

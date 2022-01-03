@@ -9,7 +9,7 @@ import Dates from "./Dates";
 export default class Search extends Component {
   render() {
     return (
-      <div className="bg-black">
+      <div>
         <span className="d-flex flex-row bg-button rounded-border-32">
           <Dropdown>
             <Dropdown.Toggle className="bg-button rounded-border-32">

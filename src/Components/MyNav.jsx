@@ -5,7 +5,7 @@ export default class MyNav extends Component {
   render() {
     return (
       <div className="d-none d-md-block">
-        <Navbar className="bg-black" expand="lg">
+        <Navbar expand="lg">
           <Navbar.Brand href="#home">
             <img
               src="images/Airbnb_Logo_White.png"
