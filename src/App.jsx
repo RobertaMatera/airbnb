@@ -7,6 +7,7 @@ import "./Style/mySearchStyle.css";
 import "react-dates/lib/css/_datepicker.css";
 import "./Style/reactDatesOverrides.css";
 import "./Style/myJumbotron.css";
+import "./Style/shopNow.css";
 
 import MyNav from "./Components/MyNav";
 import MySmallNav from "./Components/MySmallNav";
@@ -14,6 +15,7 @@ import Search from "./Components/Search";
 import MyJumbotron from "./Components/MyJumbotron";
 
 import { Container } from "react-bootstrap";
+import ShopNow from "./Components/ShopNow";
 
 function App() {
   return (
@@ -32,6 +34,10 @@ function App() {
           <MyJumbotron />
         </section>
       </Container>
+
+      <section id="shop-now">
+        <ShopNow />
+      </section>
 
       <Container fluid className="d-flex flex-column d-md-none bg-img">
         <section id="nav">

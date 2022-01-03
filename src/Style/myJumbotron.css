@@ -1,8 +1,14 @@
-#jumbotron > div {
+#jumbotron > div:first-child {
   background: url("../../public/images/main-photo.jpg");
   background-repeat: no-repeat;
   height: 80vh;
+  max-width: 1225px;
   border-radius: 32px;
+}
+
+#jumbotron div:nth-child(2) {
+  height: 30vh;
+  position: relative;
 }
 
 #jumbotron h2 {

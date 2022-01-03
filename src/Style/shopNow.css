@@ -1,0 +1,35 @@
+#shop-now {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: -524px;
+}
+
+#shop-now img {
+  width: 421.5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .bg-shop {
+    width: 688px;
+    height: 344px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .bg-shop {
+    width: 864px;
+    height: 432px;
+  }
+}
+
+#shop-now button {
+  border-radius: 8px;
+}
+
+#shop-now button:hover {
+  background-color: var(--black-color);
+}
