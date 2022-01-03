@@ -3,9 +3,6 @@ import "react-dates/initialize";
 import { DayPickerRangeController } from "react-dates";
 
 import React, { Component } from "react";
-import moment from 'moment';
-
-import { Button } from "react-bootstrap";
 
 export default class Dates extends Component {
   constructor(props) {
@@ -20,7 +17,7 @@ export default class Dates extends Component {
   render() {
     return (
       <>
-        <div>
+        <div className="d-flex flex-row justify-content-center">
           <DayPickerRangeController
             numberOfMonths = {2}
             startDate={this.state.startDate}

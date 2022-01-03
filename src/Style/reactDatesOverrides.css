@@ -17,6 +17,10 @@
   background: var(--black-color);
 }
 
+.CalendarDay:hover {
+  background: black !important;
+}
+
 .CalendarDay__default {
   border: none;
 }
@@ -30,8 +34,6 @@ is not yet selected. Edits the dates between your mouse and said date */
 
 .CalendarDay:hover {
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
   border: 1.5px solid var(--black-color);
   background: none;
   display: flex;
@@ -42,17 +44,45 @@ is not yet selected. Edits the dates between your mouse and said date */
 .day-button {
   background: var(--white-color);
   border-radius: 21px;
-  border: 0.5px solid var(--gray-color);
+  border: 1px solid #bbbbbb;
   font-size: 10pt;
   color: var(--black-color);
 }
 
 .day-button:hover {
-  border: 0.5px solid var(--black-color);
-  background: var(--white-color);
-  color: var(--black-color);
+  border: 1px solid var(--black-color) !important;
+  background: none !important;
+  color: var(--black-color) !important;
 }
 
 .DayPicker__withBorder {
   box-shadow: none;
+}
+
+.calendar-box {
+  background-color: var(--white-color);
+  border: transparent;
+  border-radius: 32px;
+  padding: 32px 16px 32px 16px !important;
+}
+
+div .DayPickerNavigation_button {
+  border: none;
+}
+
+div .DayPickerNavigation_button:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: transparent;
+  background-color: var(--gray-calendar);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.DayPickerKeyboardShortcuts_buttonReset {
+  display: none;
 }

@@ -49,7 +49,7 @@ export default class Search extends Component {
 
             <Dropdown.Menu className="calendar-box p-2">
               <Dates />
-              <div className="d-flex flex-row">
+              <div className="d-flex flex-row justify-content-start pl-3">
                 <Button
                   type="button"
                   className="d-flex d-inline align-items-center day-button py-0 px-1 mx-1 target"
