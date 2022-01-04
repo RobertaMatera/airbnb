@@ -1,0 +1,16 @@
+.small-card {
+  height: 295.45px;
+  border: none;
+}
+
+.border-radius-15 {
+  border-radius: 15px;
+}
+
+.img-small-card {
+  object-fit: cover;
+  object-position: center center;
+  vertical-align: bottom;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}

@@ -24,6 +24,10 @@
   font-weight: 800;
 }
 
+.font-w-600 {
+  font-weight: 600;
+}
+
 .font-size-30pt {
   font-size: 30pt;
 }
@@ -66,4 +70,8 @@
   border-radius: 100%;
   width: 50px;
   height: 50px;
+}
+
+.padding {
+  padding-top: 360px;
 }
