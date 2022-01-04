@@ -1,6 +1,12 @@
 .small-card {
-  height: 295.45px;
+  max-width: 338px;
+  height: 356px;
   border: none;
+}
+
+.card-body {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .border-radius-15 {
@@ -13,4 +19,9 @@
   vertical-align: bottom;
   border-top-left-radius: 13px;
   border-top-right-radius: 13px;
+}
+
+.card-title,
+.card-text {
+  color: var(--white-color);
 }

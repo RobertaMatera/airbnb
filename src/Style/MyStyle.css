@@ -28,8 +28,8 @@
   font-weight: 600;
 }
 
-.font-size-30pt {
-  font-size: 30pt;
+.font-size-50pt {
+  font-size: 50pt;
 }
 
 .bg-black {
@@ -73,5 +73,5 @@
 }
 
 .padding {
-  padding-top: 360px;
+  padding-top: 300px;
 }

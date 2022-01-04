@@ -15,7 +15,7 @@ import MySmallNav from "./Components/MySmallNav";
 import Search from "./Components/Search";
 import MyJumbotron from "./Components/MyJumbotron";
 
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ShopNow from "./Components/ShopNow";
 import NextTrips from "./Components/NextTrips";
 
@@ -38,7 +38,7 @@ function App() {
           </section>
         </Container>
 
-        <section id="shop-now">
+        <section id="shop-now" className="px-4">
           <ShopNow />
         </section>
 
@@ -52,10 +52,18 @@ function App() {
           <div className="padding"></div>
         </Container>
 
-        <Container>
-          <h2 className="font-w-600 pb-5 m-0">Inspiration for your next trip</h2>
-          <NextTrips />
-        </Container>
+        <section id="new-inspiration" className="px-5">
+          <Container fluid>
+            <Row className="ml-5 p-0">
+              <h2 className="font-w-600">
+                Inspiration for your next trip
+              </h2>
+            </Row>
+            <Row className="d-flex justify-content-center my-5 mx-4">
+              <NextTrips />
+            </Row>
+          </Container>
+        </section>
       </main>
     </>
   );
