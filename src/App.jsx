@@ -10,6 +10,7 @@ import "./Style/myJumbotron.css";
 import "./Style/shopNow.css";
 import "./Style/smallCard.css";
 import "./Style/bigCard.css";
+import "./Style/hosting.css";
 
 import MyNav from "./Components/MyNav";
 import MySmallNav from "./Components/MySmallNav";
@@ -20,6 +21,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ShopNow from "./Components/ShopNow";
 import NextTrips from "./Components/NextTrips";
 import Experiences from "./Components/Experiences";
+import Hosting from "./Components/Hosting";
 
 function App() {
   return (
@@ -75,6 +77,15 @@ function App() {
             <Experiences/>
           </Row>
         </Container>
+      </section>
+
+      <section id="host">
+        <Container fluid className="pt-md-5 mx-1 mx-md-0 px-md-5 my-2">
+          <Row>
+            <Hosting />
+          </Row>
+        </Container>
+
       </section>
     </>
   );

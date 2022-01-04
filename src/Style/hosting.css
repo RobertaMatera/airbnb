@@ -1,0 +1,52 @@
+#host img {
+  width: 88vw;
+  object-fit: cover;
+  border-radius: 15px;
+  position: relative;
+}
+
+#host h3 {
+  position: absolute;
+  top: 3000px;
+  left: 213px;
+  font-size: 60pt;
+  font-weight: bold;
+  color: var(--white-color);
+  width: 50px;
+}
+
+#host button {
+  position: absolute;
+  top: 3700px;
+  left: 213px;
+  color: var(--black-color);
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+}
+
+#host button:hover {
+  background-color: var(--gray-calendar);
+}
+
+@media screen and (max-width: 992px) {
+  #host h3 {
+    position: absolute;
+    top: 4514px;
+    left: 128px;
+    font-size: 30pt;
+    font-weight: bold;
+    color: var(--white-color);
+    width: 50px;
+  }
+
+  #host button {
+    position: absolute;
+    top: 4730px;
+    left: 128px;
+    color: var(--black-color);
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+  }
+}
