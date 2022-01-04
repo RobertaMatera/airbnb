@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Col } from "react-bootstrap";
 import SmallCard from "./SmallCard.jsx";
 
 export default class NewTrip extends Component {

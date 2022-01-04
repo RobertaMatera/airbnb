@@ -32,6 +32,10 @@
   font-size: 50pt;
 }
 
+.font-size-30pt {
+  font-size: 30pt;
+}
+
 .bg-black {
   background-color: var(--black-color);
 }

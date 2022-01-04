@@ -9,6 +9,7 @@ import "./Style/reactDatesOverrides.css";
 import "./Style/myJumbotron.css";
 import "./Style/shopNow.css";
 import "./Style/smallCard.css";
+import "./Style/bigCard.css";
 
 import MyNav from "./Components/MyNav";
 import MySmallNav from "./Components/MySmallNav";
@@ -18,6 +19,7 @@ import MyJumbotron from "./Components/MyJumbotron";
 import { Container, Row, Col } from "react-bootstrap";
 import ShopNow from "./Components/ShopNow";
 import NextTrips from "./Components/NextTrips";
+import Experiences from "./Components/Experiences";
 
 function App() {
   return (
@@ -55,9 +57,7 @@ function App() {
         <section id="new-inspiration" className="px-5">
           <Container fluid>
             <Row className="ml-5 p-0">
-              <h2 className="font-w-600">
-                Inspiration for your next trip
-              </h2>
+              <h2 className="font-w-600">Inspiration for your next trip</h2>
             </Row>
             <Row className="d-flex justify-content-center my-5 mx-4">
               <NextTrips />
@@ -65,6 +65,17 @@ function App() {
           </Container>
         </section>
       </main>
+
+      <section id="experiences">
+        <Container fluid className="pt-md-5 mx-1 mx-md-0 px-md-5">
+          <Row className="ml-1 ml-md-5 p-0">
+            <h2 className="font-w-600 pb-3 mb-4">Discover Airbnb Experiences</h2>
+          </Row>
+          <Row>
+            <Experiences/>
+          </Row>
+        </Container>
+      </section>
     </>
   );
 }

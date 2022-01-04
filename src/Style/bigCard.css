@@ -1,0 +1,53 @@
+#experiences .big-card {
+  height: 200vh;
+  object-fit: cover;
+}
+
+#experiences img {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+  height: 90vh !important;
+}
+
+#experiences h3 {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  color: var(--white-color);
+  width: 270px;
+}
+
+#experiences button {
+  position: absolute;
+  top: 210px;
+  left: 80px;
+  color: var(--black-color);
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+}
+
+#experiences button:hover {
+  background-color: var(--gray-calendar);
+}
+
+@media screen and (max-width: 767px) {
+  #experiences h3 {
+    position: absolute;
+    top: 36px;
+    left: 43px;
+    color: var(--white-color);
+    width: 270px;
+  }
+
+  #experiences button {
+    position: absolute;
+    top: 170px;
+    left: 43px;
+    color: var(--black-color);
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+  }
+}
