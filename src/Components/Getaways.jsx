@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import HistoricDestinations from "./HistoricDestinations";
+import CoastalDestinations from "./CoastalDestinazions";
+import IslandDestinations from "./IslandDestinations";
 import { Tabs, Tab } from "react-bootstrap";
 
 export default class Getaways extends Component {
@@ -11,10 +13,10 @@ export default class Getaways extends Component {
           <HistoricDestinations />
         </Tab>
         <Tab eventKey="coastalDestinations" title="Coastal Destinations">
-          
+          <CoastalDestinations />
         </Tab>
         <Tab eventKey="islandDestinations" title="Island Destinations">
-          
+          <IslandDestinations />
         </Tab>
         <Tab eventKey="lakeDestinations" title="Lake Destinations">
           
