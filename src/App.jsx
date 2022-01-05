@@ -91,10 +91,10 @@ function App() {
         </Container>
       </section>
 
-      <section id="gateways" className="mx-5">
+      <section id="gateways" className="mx-5 mt-5">
         <Container fluid className="pt-md-5 mx-1 mx-md-0 px-md-5">
           <Row className="p-0">
-            <h3 className="font-w-600 pb-3 mb-4">
+            <h3 className="font-w-600">
               Inspiration for future gateways
             </h3>
           </Row>
