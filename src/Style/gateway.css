@@ -1,0 +1,21 @@
+#gateways li button {
+  font-weight: 600;
+}
+
+#gateways a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--black-color);
+}
+
+#gateways #uncontrolled-tab-example-tabpane-profile .row {
+  width: 100vw;
+}
+
+#gateways p {
+  font-size: 11pt;
+}
+
+#gateways .row p:first-child {
+  font-weight: 600;
+}

@@ -11,6 +11,7 @@ import "./Style/shopNow.css";
 import "./Style/smallCard.css";
 import "./Style/bigCard.css";
 import "./Style/hosting.css";
+import "./Style/gateway.css";
 
 import MyNav from "./Components/MyNav";
 import MySmallNav from "./Components/MySmallNav";
@@ -22,6 +23,7 @@ import ShopNow from "./Components/ShopNow";
 import NextTrips from "./Components/NextTrips";
 import Experiences from "./Components/Experiences";
 import Hosting from "./Components/Hosting";
+import Gateways from "./Components/Getaways";
 
 function App() {
   return (
@@ -71,10 +73,12 @@ function App() {
       <section id="experiences">
         <Container fluid className="pt-md-5 mx-1 mx-md-0 px-md-5">
           <Row className="ml-1 ml-md-5 p-0">
-            <h2 className="font-w-600 pb-3 mb-4">Discover Airbnb Experiences</h2>
+            <h2 className="font-w-600 pb-3 mb-4">
+              Discover Airbnb Experiences
+            </h2>
           </Row>
           <Row>
-            <Experiences/>
+            <Experiences />
           </Row>
         </Container>
       </section>
@@ -85,7 +89,19 @@ function App() {
             <Hosting />
           </Row>
         </Container>
+      </section>
 
+      <section id="gateways" className="mx-5">
+        <Container fluid className="pt-md-5 mx-1 mx-md-0 px-md-5">
+          <Row className="p-0">
+            <h3 className="font-w-600 pb-3 mb-4">
+              Inspiration for future gateways
+            </h3>
+          </Row>
+          <Row>
+            <Gateways />
+          </Row>
+        </Container>
       </section>
     </>
   );
