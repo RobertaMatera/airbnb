@@ -19,3 +19,32 @@
 #gateways .row p:first-child {
   font-weight: 600;
 }
+
+#gateways .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: var(--black-color);
+  background-color: transparent;
+  border: none;
+}
+
+#gateways .nav-tabs .nav-link {
+  margin-bottom: -1px;
+  border: none;
+  border-radius: 0;
+  background: none;
+  color: var(--gray-color);
+  margin-bottom: 8px;
+}
+
+#gateways .nav-link:focus {
+  color: var(--black-color);
+  border-bottom: 2px solid var(--black-color);
+  padding-bottom: 14px;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+#gateways .nav-tabs .nav-link:hover {
+  background-color: var(--gray-calendar);
+  border-radius: 12px;
+}
