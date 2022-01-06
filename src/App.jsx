@@ -12,18 +12,20 @@ import "./Style/smallCard.css";
 import "./Style/bigCard.css";
 import "./Style/hosting.css";
 import "./Style/gateway.css";
+import "./Style/footer.css";
 
 import MyNav from "./Components/MyNav";
 import MySmallNav from "./Components/MySmallNav";
 import Search from "./Components/Search";
 import MyJumbotron from "./Components/MyJumbotron";
-
-import { Container, Row, Col } from "react-bootstrap";
 import ShopNow from "./Components/ShopNow";
 import NextTrips from "./Components/NextTrips";
 import Experiences from "./Components/Experiences";
 import Hosting from "./Components/Hosting";
 import Gateways from "./Components/Getaways";
+import Footer from "./Components/Footer";
+
+import { Container, Row } from "react-bootstrap";
 
 function App() {
   return (
@@ -94,12 +96,18 @@ function App() {
       <section id="gateways" className="mx-5 mt-5">
         <Container fluid className="pt-md-5 mx-1 mx-md-0 px-md-5">
           <Row className="p-0">
-            <h3 className="font-w-600">
-              Inspiration for future gateways
-            </h3>
+            <h3 className="font-w-600">Inspiration for future gateways</h3>
           </Row>
           <Row>
             <Gateways />
+          </Row>
+        </Container>
+      </section>
+
+      <section id="footer">
+        <Container fluid className="py-5 bg-footer">
+          <Row className="p-0">
+            <Footer />
           </Row>
         </Container>
       </section>
