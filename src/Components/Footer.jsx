@@ -156,8 +156,6 @@ export default class Footer extends Component {
             </Row>
           </Col>
         </section>
-
-        <hr className="my-5"/>
       </>
     );
   }

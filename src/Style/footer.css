@@ -2,14 +2,16 @@
   background-color: var(--gray-calendar);
 }
 
-#footer a {
+#footer a,
+#footer-bottom a {
   font-size: 10pt;
   color: var(--black-color);
   padding: -top 20px;
   padding-bottom: 20px;
 }
 
-#footer a:hover {
+#footer a:hover,
+#footer-bottom a:hover {
   text-decoration: underline;
 }
 
@@ -17,4 +19,11 @@
   #footer a {
     width: 80vw;
   }
+}
+
+#footer hr.hr-style {
+  border: 1px solid var(--light-gray);
+  width: 95vw;
+  display: flex;
+  justify-content: center;
 }

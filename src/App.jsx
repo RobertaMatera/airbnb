@@ -24,6 +24,7 @@ import Experiences from "./Components/Experiences";
 import Hosting from "./Components/Hosting";
 import Gateways from "./Components/Getaways";
 import Footer from "./Components/Footer";
+import FooterBottom from "./Components/FooterBottom";
 
 import { Container, Row } from "react-bootstrap";
 
@@ -108,6 +109,12 @@ function App() {
         <Container fluid className="py-5 bg-footer">
           <Row className="p-0">
             <Footer />
+          </Row>
+          <Row>
+            <hr className="mt-3 mb-2 hr-style" />
+          </Row>
+          <Row id="footer-bottom">
+            <FooterBottom />
           </Row>
         </Container>
       </section>
