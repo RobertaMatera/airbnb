@@ -14,7 +14,7 @@
 }
 
 #nav div div:first-child a:hover {
-  color: var(--white-color);
+  color: var(--light-gray);
 }
 
 #nav div div:first-child a:after {
@@ -71,4 +71,8 @@ i {
 .button-transparent:hover {
   background-color: var(--light-black);
   border: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--white-color);
 }

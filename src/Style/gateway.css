@@ -36,15 +36,15 @@
   margin-bottom: 8px;
 }
 
+#gateways .nav-tabs .nav-link:hover {
+  background-color: var(--gray-calendar);
+  border-radius: 12px;
+}
+
 #gateways .nav-link:focus {
   color: var(--black-color);
   border-bottom: 2px solid var(--black-color);
   padding-bottom: 14px;
   margin-bottom: 0;
   border-radius: 0;
-}
-
-#gateways .nav-tabs .nav-link:hover {
-  background-color: var(--gray-calendar);
-  border-radius: 12px;
 }
