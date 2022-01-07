@@ -4,6 +4,10 @@
   border: none;
 }
 
+.small-card:hover {
+  cursor: pointer;
+}
+
 .card-body {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
