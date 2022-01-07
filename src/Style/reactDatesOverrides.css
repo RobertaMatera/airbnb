@@ -39,6 +39,7 @@ is not yet selected. Edits the dates between your mouse and said date */
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--white-color);
 }
 
 .day-button {

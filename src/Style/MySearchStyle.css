@@ -118,3 +118,12 @@
 .calendar-box {
   width: 700px;
 }
+
+.show > .btn-primary.dropdown-toggle,
+.show > .btn-primary.dropdown-toggle:focus {
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-box-shadow: 0px 0px 20px 5px #dfdfdf85;
+  box-shadow: 0px 0px 20px 5px #dfdfdf85;
+  outline: none;
+}
