@@ -106,14 +106,14 @@ function App() {
       </section>
 
       <section id="footer">
-        <Container fluid className="py-5 bg-footer">
+        <Container fluid className="pt-5 bg-footer">
           <Row className="p-0">
             <Footer />
           </Row>
           <Row>
             <hr className="mt-3 mb-2 hr-style" />
           </Row>
-          <Row id="footer-bottom">
+          <Row id="footer-bottom" className="px-4 pt-4">
             <FooterBottom />
           </Row>
         </Container>

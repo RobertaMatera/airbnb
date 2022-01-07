@@ -10,6 +10,11 @@
   padding-bottom: 20px;
 }
 
+#footer-bottom div span:first-child > a,
+#footer-bottom div span:nth-child(2) > a {
+  text-decoration: underline;
+}
+
 #footer a:hover,
 #footer-bottom a:hover {
   text-decoration: underline;
@@ -26,4 +31,14 @@
   width: 95vw;
   display: flex;
   justify-content: center;
+}
+
+#footer i,
+#footer-bottom i {
+  color: var(--black-color);
+}
+
+#footer-bottom .bi-twitter::before,
+#footer-bottom .bi-instagram::before {
+  padding-left: 20px;
 }
