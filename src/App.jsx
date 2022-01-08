@@ -107,7 +107,7 @@ function App() {
 
       <section id="footer">
         <Container fluid className="pt-5 bg-footer">
-          <Row className="p-0">
+          <Row className="py-0 px-5">
             <Footer />
           </Row>
           <Row>
