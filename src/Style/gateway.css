@@ -8,8 +8,9 @@
   color: var(--black-color);
 }
 
-#gateways #uncontrolled-tab-example-tabpane-profile .row {
-  width: 100vw;
+#gateways .tab-content {
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
 #gateways p {

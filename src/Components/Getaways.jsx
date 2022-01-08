@@ -11,7 +11,7 @@ export default class Getaways extends Component {
 
   render() {
     return (
-      <Tabs defaultActiveKey="historicDestination" className="mt-2 mb-5">
+      <Tabs defaultActiveKey="historicDestination" className="mt-2 mb-5 col-12">
         <Tab eventKey="historicDestination" title="Historic Destinations">
           <HistoricDestinations />
         </Tab>
